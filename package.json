@@ -2,5 +2,5 @@
   "name": "prtrain-onboard-e2e",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "test": "node --test test/" }
+  "scripts": { "test": "node --test test/*.test.js" }
 }
