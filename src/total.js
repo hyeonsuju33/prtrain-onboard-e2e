@@ -1,4 +1,4 @@
 function total(items) {
-  return items.reduce((sum, item) => sum + item.price, 0);
+  return items.reduce((sum, item) => sum + item.price * item.qty, 0);
 }
 module.exports = { total };
