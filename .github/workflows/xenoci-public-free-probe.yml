@@ -1,0 +1,11 @@
+name: pf-probe
+on: workflow_dispatch
+jobs:
+  a:
+    runs-on: xenoci-2vcpu-ubuntu-2404
+    steps:
+      - run: echo start; sleep 45; echo end
+  b:
+    runs-on: xenoci-2vcpu-ubuntu-2404
+    steps:
+      - run: echo start; sleep 45; echo end
